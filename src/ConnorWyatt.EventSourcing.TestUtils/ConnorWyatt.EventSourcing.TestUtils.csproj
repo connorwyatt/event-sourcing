@@ -7,12 +7,18 @@
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <PackageId>ConnorWyatt.EventSourcing.TestUtils</PackageId>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/connorwyatt/event-sourcing</RepositoryUrl>
+    </PropertyGroup>
+
     <ItemGroup>
         <PackageReference Include="FluentAssertions" Version="6.7.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ConnorWyatt.EventSourcing\ConnorWyatt.EventSourcing.csproj" />
+        <ProjectReference Include="..\ConnorWyatt.EventSourcing\ConnorWyatt.EventSourcing.csproj" />
     </ItemGroup>
 
 </Project>
