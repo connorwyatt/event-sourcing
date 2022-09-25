@@ -11,7 +11,7 @@
     <PropertyGroup>
         <PackageId>ConnorWyatt.EventSourcing</PackageId>
         <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/connorwyatt/event-sourcing</RepositoryUrl>
+        <RepositoryUrl>https://github.com/connorwyatt/event-sourcing-dotnet</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
